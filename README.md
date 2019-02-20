@@ -12,3 +12,19 @@ Inspiration für das Thema "Riesen-Tetris" waren
 ## Hardware
 
 Das Praktikum befasst sich hauptsächlich mit der (teils hardwarenahen) Software-Seite. Die Hardware wurde im Wesentlichen von Mitutoyo CTL vorbereitet. Für eine komplette Vorbereitung im Rahmen des BOGY wäre nicht genügend Zeit. Damit dieses Projekt auch von anderen Interessenten umgesetzt werden können, beschreiben wir natürlich auch die [Hardware](Hardware.md).
+
+## Erster Nachmittag, 20.2.2019
+
+Nach der Begrüßung und Führung durch das Gebäude haben wir mit Hilfe der [Firmenpräsentation](Präsentationen/Firmenpräsentation_16_9.pptx) die Firma Mitutoyo, ihre Software und das angebotene Studium der Informatik (Informationstechnik) kennengelernt.
+
+Im Anschluss haben wir kurz die Idee vorgestellt: es soll eine Hardware-Software-Kombination entstehen, mit der man zumindest Tetris spielen kann. Das [Brainstorming](Brainstorming.md) ergab noch einige weitere Ideen und Anregungen, die wir optional umsetzen können, sofern gegen Ende des BOGY noch Zeit bleibt.
+
+Für einen ersten Überblick gab es die [Raspberry Pi Einführung](Präsentationen/Raspberry%20Hardware.pptx). Den haben wir dann auch zusammengebaut, eingeschaltet und die Software aktualisiert (`sudo apt-get update` und `sudo apt-get upgrade`). Außerdem haben wir uns einen Überblick über die verwendete [Hardware](Hardware.md) des Spielbretts verschafft sowie die dazu nötigen [Ein- und Ausgabemöglichkeiten des Raspberrys](Präsentationen/Hardware%20Einführung.pptx).
+
+Alle Teilnehmer haben bereits einen [Github Account](https://github.com/join) angelegt und wurden zu diesem Projekt hinzugefügt.
+
+Weil noch Zeit übrig war, haben wir gleich die [USB Soundkarte](Präsentationen/USB%20Soundkarte.pptx) konfiguriert.
+
+Hausaufgaben:
+
+* Fotofreigabedokument von den Eltern unterschreiben lassen
