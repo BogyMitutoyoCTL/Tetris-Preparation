@@ -69,6 +69,18 @@ In der Übersicht sehen wir auch unter "Massenspeicher" welches ISO-Image wir ge
 
 Jetzt sollte Euer virtuelles System starten...
 
+## Installation von Raspbian auf dem virtuellen System
+
+Wenn alles geklappt hat, dann solltet ihr dies sehen:
+
+![image](https://user-images.githubusercontent.com/3775529/53510592-a81a3d80-3abe-11e9-8c98-c9b98487ab59.png)
+
+Über "Install" installiert ihr das System auf die virtuelle Festplatte.
+
+Jetzt solltet ihr duchrt die Installation hindurchgeführt werden:
+
+![image](https://user-images.githubusercontent.com/3775529/53510863-40b0bd80-3abf-11e9-8058-b93a308c8a72.png)
+
 ## Probleme
 
 ### Hyper-V Installation
