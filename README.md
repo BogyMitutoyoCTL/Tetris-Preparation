@@ -28,3 +28,13 @@ Weil noch Zeit übrig war, haben wir gleich die [USB Soundkarte](Präsentationen
 Hausaufgaben:
 
 * Fotofreigabedokument von den Eltern unterschreiben lassen
+
+## Zweiter Nachmittag, 27.2.2019
+
+Heute sind wir tiefer eingestiegen in die Welt des Raspberry. Wir haben die [Grundlagen von Linux](Prsäentationen/Linux.pptx) besprochen, darunter im Wesentlichen den Systemaufbau, Benutzerrechte, Dateien und die Verzeichnisstruktur.
+
+Ein Linuxsystem wie der Raspberry (genauer: Raspbian als Betriebssystem des Raspberry) lässt sich kaum ohne die Konsole einrichten. Daher sind wir auch auf die Befehle des Terminals [Bash](Präsentationen/Bash.pptx) eingegangen und haben Dateien bearbeitet, Rechte geändert.
+
+Hausaufgaben:
+
+* [Virtuellen Raspberry Pi einrichten](virtual_raspberry.md)
