@@ -38,3 +38,13 @@ Ein Linuxsystem wie der Raspberry (genauer: Raspbian als Betriebssystem des Rasp
 Hausaufgaben:
 
 * [Virtuellen Raspberry Pi einrichten](virtual_raspberry.md)
+
+## Dritter Nachmittag, 13.3.2019
+
+Beim Daily Standup haben wir gefragt, wer sich zuhause einen virtuellen PC mit Raspbian eingerichtet hat.
+Mit den Folien der [Bash](Präsentationen/Bash.pptx) waren wir noch nicht ganz durch, daher haben wir diesen Teil noch nachgeholt. Danach haben wir [PyCharm](Präsentationen/Pycharm.pptx) kennengelernt und installiert. Damit waren wir vorbereitet für die Übungen aus der [Python Einführung](Präsentationen/Python Einführung.pptx).
+
+Hausaufgaben:
+
+* PyCharm Community Edition für Windows zuhause installieren
+* Eine oder zwei Aufgaben von [Project Euler](https://projecteuler.net/archives) in Python lösen
