@@ -147,11 +147,9 @@ Zeichnung für die Aufteilung der Zuschnitte auf die MDF-Platten ([Download SVG]
 
 Zeichnung für die Unterbringung der Hardware([Download SVG](Hardware/UnterbringungHardware.svg)).
 
-In einem LED-Abschnitt befinden sich 20 LEDs, es fließen also bis zu 1,2A. D.h. diese Streifen sollten mit mindestens 0,5mm² verdrahtet werden.
-
 ![Unterbringung der Hardware](Hardware/UnterbringungHardware.png)
 
-##Spannungsversorgung
+## Spannungsversorgung
 
 Bei der Auslegung des Netzteils wurde schon festgestellt, dass wir es mit nennenswerter Leistung zu tun haben. Diese Leistung muss auf die 10 LED Streifen à 20 LEDs verteilt werden. Pro LED-Streifen sind 20 LEDs \* 3 Farben/LED \* 20mA/Farbe, also 1,2A erforderlich.
 
@@ -183,7 +181,7 @@ Was uns vorher gar nicht aufgefallen ist: die LED Streifen haben schon ab Werk L
 
 Alle zehn Streifen aufgeklebt. Wichtig ist, dass die Pfeile in die gleiche Richtung zeigen. Wir haben die Pfeile von oben nach unten angebracht.
 
-![Zehn Streifen](Hardware/Aufbau/Alle Streifen.jpg)
+![Zehn Streifen](Hardware/Aufbau/Alle%20Streifen.jpg)
 
 LEDs im Gehäuse. Wir sind froh, dass das Gitter passt.
 
