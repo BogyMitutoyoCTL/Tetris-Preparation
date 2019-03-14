@@ -150,3 +150,45 @@ Zeichnung für die Unterbringung der Hardware([Download SVG](Hardware/Unterbring
 In einem LED-Abschnitt befinden sich 20 LEDs, es fließen also bis zu 1,2A. D.h. diese Streifen sollten mit mindestens 0,5mm² verdrahtet werden.
 
 ![Unterbringung der Hardware](Hardware/UnterbringungHardware.png)
+
+##Spannungsversorgung
+
+Bei der Auslegung des Netzteils wurde schon festgestellt, dass wir es mit nennenswerter Leistung zu tun haben. Diese Leistung muss auf die 10 LED Streifen à 20 LEDs verteilt werden. Pro LED-Streifen sind 20 LEDs \* 3 Farben/LED \* 20mA/Farbe, also 1,2A erforderlich.
+
+Die VDE 0298 T4 06/13 gibt als Belastbarkeit von frei verlegten, einadrigen Adern einen Wert von 15A bei 0,75mm² an. In mehradrigen Leitungen nur 12A. Wir verlegen ggf. mehrere Adern parallel oder nah beieinander, so dass wir vorsichtshalber den niedrigeren Wert annehmen.
+
+Für 1,2A können wir die Fläche verkleinern auf 0,75mm²/12A\*1,2A = 0,075mm². Der nächsthöhere käuflich erhältliche Wert wäre 0,08mm². Wer einen solchen Draht in der Hand hält, wird allerdings Zweifel bekommen. Selbst "normaler" Schaltdraht (Steuerleitung) hat schon 0,14mm². Außerdem ist zu beachten, dass die Verbindungsklemme auch für den Draht geeignet sein muss. Die Wago-Klemme 221-415 gibt einen Kabelquerschnitt ab 0,14mm² an.
+
+Von 0,14mm² Schaltlitze hatten wir genügend Vorrat, so dass wir keinen extra Draht bestellt haben.
+
+Die Drähte für die Spannungsversorgung der LED-Streifen sind ca. 20cm lang. Kupferdraht mit einem spezifischen Widerstand von 0,017Ωmm²/m hat dann einen Widerstand von 0,017Ωmm²/m \* 20cm / 0,14mm², also weniger als 0,03Ω.
+
+Der Spannungsabfall am Draht beträgt dann 0,03Ω \* 1,2A = 36mV. Für unsere LED Streifen bleiben dann noch 5V-2\*36mV = 4,928V übrig.
+
+Die am Einzeldraht in Wärme umgewandelte Leistung liegt bei 36mV \* 1,2A = 43mW. Alle Drähte zusammen ergeben eine Wärmeleistung von 20\*43mW = 860mW. Wer schon mal einen 1/4W Widerstand bei seiner maximalen Leistung betrieben hat, weiß, dass man sich daran die Finger verbrennen kann. Bei einem zukünftigen Projekt würde ich für die Spannungsversorgung eher auf 0,5mm² wechseln.
+
+## Steuerleitung / Datensignal
+
+Wenn 0,14mm² schon für die Spannungsversorgung genügen, dann erst recht für das Datensignal der WS2812 LEDs.
+
+## Making of
+
+Erste Streifen auf dem Brett verlegt:
+
+![Erste Streifen verlegt](Hardware/Aufbau/Erste%20Streifen.jpg)
+
+Was uns vorher gar nicht aufgefallen ist: die LED Streifen haben schon ab Werk Lötstellen. An diesen Stellen stimmt der Abstand von 33mm nicht mehr exakt, sondern ist etwas größer. Dadurch gibt es einen leichten Versatz der LEDs.
+
+![Lötstellen](Hardware/Aufbau/Loetstellen.jpg)
+
+Alle zehn Streifen aufgeklebt. Wichtig ist, dass die Pfeile in die gleiche Richtung zeigen. Wir haben die Pfeile von oben nach unten angebracht.
+
+![Zehn Streifen](Hardware/Aufbau/Alle Streifen.jpg)
+
+LEDs im Gehäuse. Wir sind froh, dass das Gitter passt.
+
+![LEDs im Gehäuse](Hardware/Aufbau/Gehaeuse.jpg)
+
+Verkabelt: die Datenleitung fängt oben links an und wird dann in jeder Spalte wieder nach oben geführt. Dieser Aufbau macht die spätere Implementierung leichter. Die Datenleitung kann mit Tesafilm auf der Grundplatte fixiert werden. Das sieht hübscher aus und verhindert Verhedderungen mit dem Gehäuse. Die Spannungsversorgung wird in allen Spalten von unten zugeführt.
+
+![Verkabelt](Hardware/Aufbau/Verkabelt.jpg)
