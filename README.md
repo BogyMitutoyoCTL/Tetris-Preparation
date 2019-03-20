@@ -48,3 +48,20 @@ Hausaufgaben:
 
 * PyCharm Community Edition für Windows zuhause installieren
 * Eine oder zwei Aufgaben von [Project Euler](https://projecteuler.net/archives) in Python lösen
+
+## Vierter Nachmittag, 20.3.2019
+
+Im Daily Standup haben wir uns natürlich erkundigt, wer sich mit den Python Hausaufgaben beschäftigt hat. Danach haben wir die [Python Einführung](Präsentationen/Python%20Einführung.pptx) beim Thema Listen fortgesetzt und sind danach in die objektorientierte Programmierung mit der Präsentation [Python Erweitert](Python%20Erweitert.pptx) eingestiegen.
+
+Für dieses Projekt nützliche Bibliotheken können sein:
+
+* [Luma](https://pypi.org/project/luma.core/) zur Ansteuerung von LEDs
+* [Pygame](https://www.pygame.org/docs/) zum Abspielen von Musik
+* [Aiohttp](https://aiohttp.readthedocs.io/en/stable/) für den Webserver, der das Spiel aufs Handy liefert
+* [PyBluez](https://github.com/pybluez), falls wir Zeit haben, Bluetooth-Unterstützung einzubauen
+
+Hausaufgaben:
+
+* aus der Präsentation, Folie 20: 
+ * a) füge eine Methode zur Klasse hinzu, die den Quader in einer Richtung dreht.
+ * b) füge eine Funktion zur Klasse hinzu, die das Volumen des Quaders ausrechnet.
