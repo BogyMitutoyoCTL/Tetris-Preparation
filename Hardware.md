@@ -190,3 +190,8 @@ LEDs im Gehäuse. Wir sind froh, dass das Gitter passt.
 Verkabelt: die Datenleitung fängt oben links an und wird dann in jeder Spalte wieder nach oben geführt. Dieser Aufbau macht die spätere Implementierung leichter. Die Datenleitung kann mit Tesafilm auf der Grundplatte fixiert werden. Das sieht hübscher aus und verhindert Verhedderungen mit dem Gehäuse. Die Spannungsversorgung wird in allen Spalten von unten zugeführt.
 
 ![Verkabelt](Hardware/Aufbau/Verkabelt.jpg)
+
+Die LED Matrix sollte direkt unter die Milchglasplatte montiert werden, da sonst die Zahlen nicht ablesbar sind. Zu diesem Zweck haben wir uns eine Halterung entworfen: [Download als STL](Hardware/LED_Matrix_Halterung.stl). Davon werden zwei Stück benötigt.
+
+![LED Matrix Halterung](Hardware/LED_Matrix_Halterung.png)
+
