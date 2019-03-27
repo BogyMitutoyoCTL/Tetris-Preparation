@@ -60,8 +60,22 @@ Für dieses Projekt nützliche Bibliotheken können sein:
 * [Aiohttp](https://aiohttp.readthedocs.io/en/stable/) für den Webserver, der das Spiel aufs Handy liefert
 * [PyBluez](https://github.com/pybluez), falls wir Zeit haben, Bluetooth-Unterstützung einzubauen
 
+Hausaufgaben aus der Präsentation, Folie 20:
+
+ * füge eine Methode zur Klasse Quader hinzu, die den Quader in einer Richtung dreht.
+ * füge eine Funktion zur Klasse Quader hinzu, die das Volumen des Quaders ausrechnet.
+
+## Fünfter Nachmittag, 27.3.2019
+
+Im Daily Standup haben wir nach dem Erfolg bei den Hausaufgaben bezüglich des Quaders gefragt. Außerdem wollten wir wissen, wann der [Abend der Technik](https://lg.rw.schule-bw.de/home/?p=284985) im Jahr 2019 stattfindet. Für diesen Abend werden die Teilnehmer Poloshirts bekommen, weshalb wir schon einmal die Größen abgefragt und ausprobiert haben.
+
+Als Grundlage für eine erfolgreiche Zusammenarbeit haben wir heute das Thema [Versionskontrolle](Präsentationen/Versionskontrolle.pptx) grundsätzlich behandelt und sind dann konkret auf [Git Grundlagen](Präsentationen/Git%20Grundlagen.pptx) eingegangen, was die Basis von Github ist.
+
 Hausaufgaben:
 
-* aus der Präsentation, Folie 20: 
- * a) füge eine Methode zur Klasse hinzu, die den Quader in einer Richtung dreht.
- * b) füge eine Funktion zur Klasse hinzu, die das Volumen des Quaders ausrechnet.
+ * [Git installieren](https://git-scm.com/downloads)
+ * Einen leeren Ordner anlegen
+ * Im leeren Ordner die Git Bash öffnen (Kontextmenü)
+ * Im Kontextmenü "Git Bash" auswählen 
+ * Das "Tetris Preparation" Repository klonen:
+        git clone https://github.com/BogyMitutoyoCTL/Tetris-Preparation.git ./
