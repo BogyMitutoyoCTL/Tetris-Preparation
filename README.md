@@ -78,4 +78,5 @@ Hausaufgaben:
  * Im leeren Ordner die Git Bash öffnen (Kontextmenü)
  * Im Kontextmenü "Git Bash" auswählen 
  * Das "Tetris Preparation" Repository klonen:
+ 
         git clone https://github.com/BogyMitutoyoCTL/Tetris-Preparation.git ./
