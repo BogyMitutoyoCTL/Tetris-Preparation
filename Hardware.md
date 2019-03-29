@@ -195,3 +195,9 @@ Die LED Matrix sollte direkt unter die Milchglasplatte montiert werden, da sonst
 
 ![LED Matrix Halterung](Hardware/LED_Matrix_Halterung.png)
 
+Für die Anbringung des Netzschalters ist das MDF-Material nicht fest genug. Beim Betätigen des Schalters besteht die Gefahr, die Strebe zu beschädigen. Daher haben wir uns entschlossen, auch eine Halterung für den Netzschalter per 3D-Druck herzustellen: [Download als STL](Hardware/Netzschalter.stl).
+
+Die Vorrichtung erscheint auf den ersten Blick unnötig groß. Wir wollten jedoch einen zusätzlichen Berührungsschutz einbauen, damit man nicht versehentlich hinter dem Schalter die 230V Netzspannung berührt.
+
+![Netzschalter](Hardware/Netzschalter.png)
+
