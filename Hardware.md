@@ -201,3 +201,6 @@ Die Vorrichtung erscheint auf den ersten Blick unnötig groß. Wir wollten jedoc
 
 ![Netzschalter](Hardware/Netzschalter.png)
 
+## Jährliche Kosten
+
+Im "Standby"-Betrieb, wenn die Uhrzeit angezeit wird, liegt die Leistungsaufnahme bei ca. 20 Watt. Bei Energiekosten von 0,25€/kWh ergibt das einen Jahresbetrag von ca. 45 €.

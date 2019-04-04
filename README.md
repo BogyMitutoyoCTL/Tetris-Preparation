@@ -67,7 +67,7 @@ Hausaufgaben aus der Präsentation, Folie 20:
 
 ## Fünfter Nachmittag, 27.3.2019
 
-Im Daily Standup haben wir nach dem Erfolg bei den Hausaufgaben bezüglich des Quaders gefragt. Außerdem wollten wir wissen, wann der [Abend der Technik](https://lg.rw.schule-bw.de/home/?p=284985) im Jahr 2019 stattfindet. Für diesen Abend werden die Teilnehmer Poloshirts bekommen, weshalb wir schon einmal die Größen abgefragt und ausprobiert haben.
+Im Daily Standup haben wir nach dem Erfolg bei den Hausaufgaben bezüglich des Quaders gefragt. Außerdem wollten wir wissen, wann der [Abend der Technik](https://lg.rw.schule-bw.de/home/?p=284985) im Jahr 2019 stattfindet. Für diesen Abend werden die Teilnehmer Poloshirts bekommen, weshalb wir schon einmal die Größen abgefragt und ausprobiert haben. Wir haben auch schon die Uhrzeit für die BOGY-Woche festgelegt: wir möchten um 8:30 Uhr starten.
 
 Als Grundlage für eine erfolgreiche Zusammenarbeit haben wir heute das Thema [Versionskontrolle](Präsentationen/Versionskontrolle.pptx) grundsätzlich behandelt und sind dann konkret auf [Git Grundlagen](Präsentationen/Git%20Grundlagen.pptx) eingegangen, was die Basis von Github ist.
 
@@ -76,7 +76,13 @@ Hausaufgaben:
  * [Git installieren](https://git-scm.com/downloads)
  * Einen leeren Ordner anlegen
  * Im leeren Ordner die Git Bash öffnen (Kontextmenü)
- * Im Kontextmenü "Git Bash" auswählen 
+ * Im Kontextmenü "Git Bash" auswählen
  * Das "Tetris Preparation" Repository klonen:
- 
+
         git clone https://github.com/BogyMitutoyoCTL/Tetris-Preparation.git ./
+
+## Sechster Nachmittag, 3.4.2019
+
+Beim Daily Standup haben wir besprochen, ob das Klonen des Repositories geklappt hat und wie wir in der BOGY-Woche verpflegt werden. In unserem Fall bestellen wir Essen von der Firma Fischer in Schramberg.
+
+Heute haben wir die Projektmanagement-Methode [Scrum](Präsentationen/Scrum.pptx) kennengelernt, um dann gleich zur Tat zu schreiten und zu überlegen, welche Funktionen unser Tetris benötigt. Ausgehend von den identifizierten Funktionen haben wir überlegt, wie das EVA-Prinzip (Eingabe, Verarbeitung, Ausgabe) auf die Funktionen anzuwenden ist. Dadurch lassen sich schon Daten identifizieren, die zur Programmierung benötigt werden. Daraus wiederum lassen sich Klassen ableiten.
