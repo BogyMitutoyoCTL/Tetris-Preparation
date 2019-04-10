@@ -36,7 +36,7 @@ Folgendes Werkzeug wird benötigt:
 Die Kosten sind bei diesem Projekt nicht zu vernachlässigen. Ungefähre Kostenübersicht:
 
 * 36 € Raspberry Pi 3B+
-* 5 € Micro-SD-Karte 8 GB
+* 5 € Micro-SD-Karte 16 GB
 * 7 € 4x64 LED Matrix
 * 70 € 7 Meter WS2812 LED Streifen, 30 LEDs/m
 * 8 € USB Soundkarte
@@ -63,10 +63,10 @@ Raspberry Pi 3B+ (ohne Zubehör)
 * [Reichelt, Art.Nr. RASPBERRY PI 3B+](https://www.reichelt.de/raspberry-pi-3-b-4x-1-4-ghz-1-gb-ram-wlan-bt-raspberry-pi-3b-p217696.html) für 35,90 €, manchmal auch 32,90 € im Angebot
 * [Conrad, Best.Nr. 1668026-62](https://www.conrad.de/de/raspberry-pi-3-model-b-1-gb-ohne-betriebssystem-1668026.html) für 39,99 €
 
-Micro SD Karte, 8 GB, Class 10
+Micro SD Karte, 16 GB, Class 10
 
-* [Reichelt, Art.Nr. VERBATIM 44012](https://www.reichelt.de/microsdhc-speicherkarte-8gb-verbatim-class-10-verbatim-44012-p237762.html) oder vergleichbar, für 3,95 €
-* [Conrad, Best.Nr. 419769-62](https://www.conrad.de/de/verbatim-micro-sdhc-8gb-cl-10-adap-microsdhc-karte-8-gb-class-10-inkl-sd-adapter-419769.html) oder vergleichbar, für 4,48 €
+* [Reichelt, Art.Nr. INTENSO 3413470](https://www.reichelt.de/microsdhc-speicherkarte-16gb-intenso-class-10-intenso-3413470-p126587.html?&trstct=pos_4) oder vergleichbar, für 3,95 €
+* [Conrad, Best.Nr. 417056-62](https://www.conrad.de/de/p/verbatim-premium-microsdhc-karte-16-gb-class-10-417056.html) oder vergleichbar, für 6,09 €
 
 4x64 LED Matrix
 
