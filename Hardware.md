@@ -171,11 +171,15 @@ Wenn 0,14mm² schon für die Spannungsversorgung genügen, dann erst recht für 
 
 ## Making of
 
+Für das Anbringen der LED Streifen ist es geschickt, die Bahnen anzeichnen zu können. Die [Berechnung der Abstände](Hardware/Abstandsberechnung.xlsx) kann die Excel-Tabelle übernehmen. In der zugehörigen Zeichnung ([Download SVG](Hardware/Abstände.svg)) ist zu erkennen, welches Maß wohin gehört.
+
+![Abstände zum Anzeichnen](Hardware/Abstände.png)
+
 Erste Streifen auf dem Brett verlegt:
 
 ![Erste Streifen verlegt](Hardware/Aufbau/Erste%20Streifen.jpg)
 
-Was uns vorher gar nicht aufgefallen ist: die LED Streifen haben schon ab Werk Lötstellen. An diesen Stellen stimmt der Abstand von 33mm nicht mehr exakt, sondern ist etwas größer. Dadurch gibt es einen leichten Versatz der LEDs.
+Was uns vorher gar nicht aufgefallen ist: die LED Streifen haben schon ab Werk Lötstellen. An diesen Stellen stimmt der Abstand von 33mm nicht mehr exakt, sondern ist etwas größer. Dadurch gibt es einen leichten Versatz der LEDs. Das fällt hinterher aber nicht mehr auf, wenn die Milchglasscheibe angebracht ist.
 
 ![Lötstellen](Hardware/Aufbau/Loetstellen.jpg)
 
