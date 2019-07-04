@@ -13,6 +13,13 @@ Inspiration für das Thema "Riesen-Tetris" waren
 
 Das Praktikum befasst sich hauptsächlich mit der (teils hardwarenahen) Software-Seite. Die Hardware wurde im Wesentlichen von Mitutoyo CTL vorbereitet. Für eine komplette Vorbereitung im Rahmen des BOGY wäre nicht genügend Zeit. Damit dieses Projekt auch von anderen Interessenten umgesetzt werden können, beschreiben wir natürlich auch die [Hardware](Hardware.md).
 
+Pinbelegung:
+
+* GPIO 10, SPI0 MOSI (Physikalisch 19) --> LED Matrix DIN (SPI Data In)
+* GPIO 8, SPI0 CE0 (Physikalisch 24) --> LED Matrix CS (SPI Chip Select)
+* GPIO 11, SPI0 SCLK  (Physikalisch 23) --> LED Matrix CLK (SPI Clock)
+* GPIO 18 PWM0 (Physikalisch 12) --> WS2812
+
 ## Erster Nachmittag, 20.2.2019
 
 Nach der Begrüßung und Führung durch das Gebäude haben wir mit Hilfe der [Firmenpräsentation](Präsentationen/Firmenpräsentation_16_9.pptx) die Firma Mitutoyo, ihre Software und das angebotene Studium der Informatik (Informationstechnik) kennengelernt.
