@@ -20,6 +20,8 @@ Pinbelegung:
 * GPIO 11, SPI0 SCLK  (Physikalisch 23) --> LED Matrix CLK (SPI Clock)
 * GPIO 18 PWM0 (Physikalisch 12) --> WS2812
 
+# Vorbereitung / Einführung
+
 ## Erster Nachmittag, 20.2.2019
 
 Nach der Begrüßung und Führung durch das Gebäude haben wir mit Hilfe der [Firmenpräsentation](Präsentationen/Firmenpräsentation_16_9.pptx) die Firma Mitutoyo, ihre Software und das angebotene Studium der Informatik (Informationstechnik) kennengelernt.
@@ -93,3 +95,20 @@ Hausaufgaben:
 Beim Daily Standup haben wir besprochen, ob das Klonen des Repositories geklappt hat und wie wir in der BOGY-Woche verpflegt werden. In unserem Fall bestellen wir Essen von der Firma Fischer in Schramberg.
 
 Heute haben wir die Projektmanagement-Methode [Scrum](Präsentationen/Scrum.pptx) kennengelernt, um dann gleich zur Tat zu schreiten und zu überlegen, welche Funktionen unser Tetris benötigt. Ausgehend von den identifizierten Funktionen haben wir überlegt, wie das EVA-Prinzip (Eingabe, Verarbeitung, Ausgabe) auf die Funktionen anzuwenden ist. Dadurch lassen sich schon Daten identifizieren, die zur Programmierung benötigt werden. Daraus wiederum lassen sich Klassen ableiten.
+
+# Programmier-Optionen
+
+Außer einem Tetris-Spiel lässt sich das 10x20 große Spielfeld auch für andere Spiele sowie nützliche Dinge verwenden:
+
+* Snake
+* Pong
+* Bilder anzeigen
+* Digital-Uhr (Stunde, Minute und Sekunde auf dem großen Display, Datum auf dem kleinen Display)
+* Binär-Uhr (Stunde, Minute und Sekunde als 2x2 große Blöcke, Datum auf dem kleinen Display, ggf. auch binär)
+* Balken-Uhr (Zehner-Stunden, Einer-Stunden, Zehner-Minuten, Einer-Minuten, Datum auf dem kleinen Display)
+* Tageslicht-Wecker: morgens dimmt sich das Licht von dunkel gelblich nach hell bläulich
+
+Bei zwei Aufbauten:
+
+* Tetris gegeneinander: der Gegner bekommt n-1 Zeilen auf sein Display geschoben
+* Pong zu zweit
