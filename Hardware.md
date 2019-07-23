@@ -42,7 +42,7 @@ Die Kosten sind bei diesem Projekt nicht zu vernachlässigen. Ungefähre Kosten�
 * 8 € USB Soundkarte
 * 20 € Netzteil
 * 3 € Lautsprecher
-* 5 € Audio-Verstärker, 2 Stück
+* 10 € Audio-Verstärker
 * 2 € Netzschalter
 * 0,35 € Flachsteckerhülsen
 * 1,50 € Kabelschuhe
@@ -54,7 +54,7 @@ Die Kosten sind bei diesem Projekt nicht zu vernachlässigen. Ungefähre Kosten�
 * zzgl. Kabel und Drähte
 * zzgl. Versandkosten
 
-In Summe kommen also knapp 200 € zusammen.
+In Summe kommen also knapp 210 € zusammen.
 
 ## Bezugsquellen
 
@@ -99,9 +99,9 @@ Lautsprecher, 2,5W
 
 * [Pollin, Best.Nr. 641240](https://www.pollin.de/p/lautsprecher-set-l-r-4-ohm-2-5-w-aus-laptop-641240) für 0,95 € (es handelt sich um ein Paar)
 
-Audio-Verstärker, 5V, 2,5W
+Audio-Verstärker, 5V, 3,7W, Stereo
 
-* 2 \* [Reichelt, Art.Nr. DEBO SOUND AMP1](https://www.reichelt.de/entwicklerboards-audioverstaerker-klasse-d-debo-sound-amp1-p235505.html) für je 4,45 € (es handelt sich um Mono-Verstärker)
+* [Reichelt, Art.Nr. DEBO SOUND AMP2](https://www.reichelt.de/entwicklerboards-audioverstaerker-stereo-3-7-w-klasse-d-debo-sound-amp2-p235507.html?r=1) für je 9,40 €
 
 Netzschalter, 230V, für 4,75mm Flachstecker
 
