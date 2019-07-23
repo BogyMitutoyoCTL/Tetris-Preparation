@@ -106,7 +106,9 @@ Außer einem Tetris-Spiel lässt sich das 10x20 große Spielfeld auch für ander
 * Digital-Uhr (Stunde, Minute und Sekunde auf dem großen Display, Datum auf dem kleinen Display)
 * Binär-Uhr (Stunde, Minute und Sekunde als 2x2 große Blöcke, Datum auf dem kleinen Display, ggf. auch binär)
 * Balken-Uhr (Zehner-Stunden, Einer-Stunden, Zehner-Minuten, Einer-Minuten, Datum auf dem kleinen Display)
+* Regenbogen-Uhr (Optionen wie zuvor, jedoch mit einem animierten (?) Regenbogen-Verlauf)
 * Tageslicht-Wecker: morgens dimmt sich das Licht von dunkel gelblich nach hell bläulich
+* Feuer-Animation für kalte Wintertage
 
 Bei zwei Aufbauten:
 
